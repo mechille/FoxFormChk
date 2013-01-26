@@ -1,0 +1,10 @@
+input,textarea	{background-color:#FAFFBD; border:1px solid #CCC; color:#000;}
+
+/*下面是弹出层的css*/
+.pop {position:absolute; background:#000; color:#fff; font-size:11px; padding:6px 10px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; width:300px; display:block; z-index:5000;}
+.pop .l1,.pop .l2,.pop .l3,.pop .l4		{width:1px; background:#000; float:right; display:block; overflow:hidden; position:absolute;}
+.pop .con	{color:#fff;}
+.pop .l4	{height:1px; left:-4px; top:10px;}
+.pop .l3	{height:3px; left:-3px; top:9px;}
+.pop .l2	{height:5px; left:-2px; top:8px;}
+.pop .l1	{height:7px; left:-1px; top:7px;}
